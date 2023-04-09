@@ -1,0 +1,27 @@
+.container-fluid{
+    background: linear-gradient(48deg, #020b72, #20edfb9c);
+}
+.row{
+    height: 70vh;
+}
+.page{
+    margin: auto;
+}
+
+.card{
+    margin: 25px 0px;
+    border-radius: 100px 2px 100px 0px;
+}
+
+
+.card-body{
+    padding: 52px;
+}
+
+h2 {
+    background: #000000e0;
+    color: white;
+    border-radius: 3px 43px 3px 43px;
+    width: 15rem;
+    margin: auto;
+}

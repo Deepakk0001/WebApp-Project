@@ -1,0 +1,26 @@
+/* .fontcolor{
+    background: linear-gradient(48deg, #0a3a91, #20edfb9c);
+} */
+
+.card{
+    margin: 52px 0px;
+    border-radius: 100px 2px 100px 0px;
+}
+.card-body{
+    padding: 52px;
+}
+/* .container-fluid{
+    background: linear-gradient(48deg, #020b72, #20edfb9c);
+    
+} */
+h1,p{
+    color: white;
+}
+
+.button-register {
+    border-radius: 89px;
+    padding: 2px 18px;
+    background: white;
+    border: none;
+    font-size: larger;
+}

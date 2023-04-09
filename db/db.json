@@ -1,0 +1,54 @@
+{
+  "Student": [
+    {
+      "name": "Deepak",
+      "email": "Deepika026@gmail.com",
+      "address": "Bhopal",
+      "id": 1
+    },
+    {
+      "name": "Ideal School",
+      "email": "Ideal@testing.com",
+      "address": "Bhopal",
+      "id": 2
+    },
+    {
+      "name": "books",
+      "email": "testing@resto5",
+      "address": "vs code44",
+      "id": 3
+    },
+    {
+      "name": "Amazon Now",
+      "email": "testing@resto6",
+      "address": "vs code5",
+      "id": 4
+    },
+    {
+      "name": "sharda",
+      "email": "sharda@gmail.com",
+      "address": "Bhopal",
+      "id": 5
+    }
+  ],
+  "Register": [
+    {
+      "name": "Deepak ",
+      "email": "choudharydeepak026@gmail.com",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "name": "Amzon",
+      "email": "amazon@gmail.com",
+      "password": "123456789",
+      "id": 2
+    },
+    {
+      "name": "Amzon",
+      "email": "amazon@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}
