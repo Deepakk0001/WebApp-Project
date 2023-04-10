@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormGroup , FormControl } from '@angular/forms';
 import { WebAppService } from '../web-app.service';
+import {  Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-resto',
@@ -10,11 +11,12 @@ import { WebAppService } from '../web-app.service';
 export class AddRestoComponent {
   addWebApp= new FormGroup({
     name: new FormControl(''),
-    email: new FormControl(''),
-    address: new FormControl(''),
+    amount: new FormControl(''),
+    // email: new FormControl(''),
+    // address: new FormControl(''),
   })
   alert :boolean=false
- constructor(private WebApp : WebAppService){}
+ constructor(private WebApp : WebAppService , private router :Router){}
 
   ngOnInit() : void{}
   collection(){
@@ -22,9 +24,13 @@ export class AddRestoComponent {
       this.alert=true
     })
     this.addWebApp.reset({})
+    
+    
   }
+  
   closeAlert(){
     this.alert=false
+    this.router.navigate(['list'])
   }
 
 }

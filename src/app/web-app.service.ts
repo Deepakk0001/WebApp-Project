@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class WebAppService {
-  url="http://localhost:3000/Student"
+  url="http://localhost:3000/Product"
   constructor( private http:HttpClient ) { }
 
 getList(){

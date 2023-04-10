@@ -1,34 +1,24 @@
 {
-  "Student": [
+  "Product": [
     {
-      "name": "Deepak",
-      "email": "Deepika026@gmail.com",
-      "address": "Bhopal",
+      "name": "Books",
+      "amount": "$500",
       "id": 1
     },
     {
-      "name": "Ideal School",
-      "email": "Ideal@testing.com",
-      "address": "Bhopal",
+      "name": "Iphone",
+      "amount": "$800",
       "id": 2
     },
     {
-      "name": "books",
-      "email": "testing@resto5",
-      "address": "vs code44",
+      "name": "English Book",
+      "amount": "$100",
       "id": 3
     },
     {
-      "name": "Amazon Now",
-      "email": "testing@resto6",
-      "address": "vs code5",
+      "name": "Hindi Book",
+      "amount": "$100",
       "id": 4
-    },
-    {
-      "name": "sharda",
-      "email": "sharda@gmail.com",
-      "address": "Bhopal",
-      "id": 5
     }
   ],
   "Register": [

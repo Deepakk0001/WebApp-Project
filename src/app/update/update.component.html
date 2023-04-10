@@ -11,16 +11,16 @@
       <form [formGroup]="updateResto" (ngSubmit)="updateData()" >
         <div class="form-group">
           <label for="exampleInputEmail1">Name</label>
-          <input type="name" class="form-control" formControlName="name" placeholder="Enter Name">
+          <input type="name" class="form-control" formControlName="name" placeholder="Product Name">
         </div>
         <div class="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" formControlName="email" placeholder="Enter Email">
+          <label for="exampleInputEmail1">Amount</label>
+          <input type="amount" class="form-control" formControlName="amount" placeholder="Enter Amount">
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="exampleInputEmail1">Address</label>
           <input type="address" class="form-control" formControlName="address" placeholder="Enter Address">
-        </div><br>
+        </div><br> -->
 
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>

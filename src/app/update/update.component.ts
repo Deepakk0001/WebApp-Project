@@ -13,8 +13,10 @@ export class UpdateComponent {
   constructor (private WebApp: WebAppService , private router: ActivatedRoute , ) {}
   updateResto= new FormGroup({
     name : new FormControl(''),
-    email : new FormControl(''),
-    address :new FormControl('')
+    amount : new FormControl(''),
+
+    // email : new FormControl(''),
+    // address :new FormControl('')
   })
 ngOnInit() : void{
   // console.warn(this.router.snapshot.params['id'])
@@ -22,8 +24,10 @@ ngOnInit() : void{
 console.log(result)
 this.updateResto= new FormGroup({
   name : new FormControl(result['name']),
-  email : new FormControl(result['email']),
-  address :new FormControl(result['address'])
+  amount : new FormControl(result['amount']),
+
+  // email : new FormControl(result['email']),
+  // address :new FormControl(result['address'])
 })
   })
  }
